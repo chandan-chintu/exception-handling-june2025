@@ -10,5 +10,6 @@ public class DemoClass {
         } catch (UserNotFoundException e){
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         }
+
     }
 }
