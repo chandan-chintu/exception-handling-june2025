@@ -11,12 +11,12 @@ public class FinallyExample {
         } catch (Exception e) {
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         }
+        //added dummy lines
         finally {
             System.out.println("a is : "+a);
             System.out.println("b is : "+b);
             System.out.println("res is : "+res);
             System.out.println("Finally always executes");
         }
-
     }
 }
